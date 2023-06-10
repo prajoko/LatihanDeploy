@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+         .kucing{
+            transition-duration:1s;
+            transition-property:transform-filter ;
+            transition-timing-function:ease-in-out;
+            /*transition-delay:1s;*/
+
+         }
+         .kucing:hover{
+            filter:brightness(0%);
+            transform:translateX(30px)
+         }
+
+    </style>
+</head>
+<body>
+    <div>
+    <img class="kucing" src="asset/kucing.jpg" alt="kucing">
+    </div>
+</body>
+</html>
